@@ -1,7 +1,7 @@
 ### Bem Vindo, eu sou o Lucka 👋
 
 - 🔭 Hoje trabalho com front-end
-- 🌱 Estudando JavaScript
+- 🌱 Estudando Flutter
 - 🧠 sempre disponível para aprender
 
 <div>
