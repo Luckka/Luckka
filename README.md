@@ -1,6 +1,6 @@
 ### Bem Vindo, eu sou o Lucka 👋
 
-- 🔭 Hoje trabalho com front-end
+- 🔭 Mobile
 - 🌱 Estudando Flutter
 - 🧠 sempre disponível para aprender
   
