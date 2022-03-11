@@ -1,4 +1,4 @@
-### Bem Vindo, eu sou o Lucka 👋
+### Bem Vindo 👋
 
 - 🔭 Mobile
 - 🌱 Estudando Flutter
