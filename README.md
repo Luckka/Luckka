@@ -1,6 +1,6 @@
 ### Bem Vindo 👋
 
 - 🔭 Mobile
-- 🌱 Estudando Flutter
+- 🌱 Desenvolvedor Flutter
 - 🧠 sempre disponível para aprender
   
