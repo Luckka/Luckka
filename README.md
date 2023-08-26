@@ -1,6 +1,6 @@
 ### Bem Vindo 👋
 
 - 🔭 Mobile
-- 🌱 Desenvolvedor Mobile/FullStack
+- 🌱 Desenvolvedor Mobile
 - 🧠 sempre disponível para aprender
   
