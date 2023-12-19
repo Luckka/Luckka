@@ -14,9 +14,9 @@
   <img align="center" alt="Kotlin" src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white"/>
   <img align="center" alt="Node.JS" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
   <img align="center" alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-</div>
+</div><br/>
 
-I believe that programming is about solving problems, developing solutions that transform the world
+I believe that programming is about solving problems, developing solutions that transform the world.
 
 
   
