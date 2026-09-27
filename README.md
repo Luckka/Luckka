@@ -216,20 +216,17 @@ Currently focused on:
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Luckka&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luckka&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
-
-</div>
-
-<br />
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Luckka&theme=tokyo-night&hide_border=true&area=true" alt="GitHub activity graph"/>
+<a href="https://github.com/Luckka">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Luckka&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
+</a>
 
 </div>
 
+<p align="center">
+<a href="https://github.com/Luckka?tab=overview">
+View my complete GitHub activity →
+</a>
+</p>
 ---
 
 ## Let's connect
