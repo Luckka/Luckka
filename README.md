@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Senior+.NET+Engineer;C%23+%7C+.NET+%7C+AWS;Distributed+Systems;AI-Driven+Engineering;Building+IAEngine+%26+InfraSentinel" alt="Typing introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=Senior+AI+%26+Backend+Engineer;RAG+%7C+Agents+%7C+Evals;Python+%7C+C%23%2F.NET+%7C+AWS;Building+RagKit%2C+IAEngine+%26+InfraSentinel" alt="Typing introduction" />
 
 <h1>Hi, I'm Lucka Silva 👋</h1>
 
@@ -44,6 +44,42 @@ My work focuses on:
 - observability and engineering quality.
 
 I enjoy working at the intersection of software architecture, cloud infrastructure and artificial intelligence.
+
+---
+
+## ⭐ Flagship project
+
+### [RagKit](https://github.com/Luckka/RagKit)
+
+> **Production-grade, provider-agnostic RAG toolkit in Python, built around measured retrieval quality.**
+
+<p>
+<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Bedrock"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logoColor=white" alt="Pinecone"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+<img src="https://github.com/Luckka/RagKit/actions/workflows/ci.yml/badge.svg" alt="CI"/>
+</p>
+
+RagKit turns any document collection (PDF, DOCX, PPTX, HTML) into a searchable knowledge base, and proves with numbers which retrieval strategy actually works for it.
+
+- **Structure-aware ingestion** with Docling: heading breadcrumbs, tables kept intact, page-level citations;
+- **Hybrid retrieval**: dense embeddings + BM25 sparse vectors fused with Reciprocal Rank Fusion;
+- **Two-stage retrieval**: a cross-encoder reranker (Cohere Rerank 3.5) on top of hybrid recall;
+- **Metadata-aware query routing**: identifiers in a question boost matching chunks as a soft filter;
+- **Built-in evaluation**: synthetic golden sets and hit@k / MRR comparisons across configurations;
+- **Provider-agnostic**: AWS Bedrock (Claude, Cohere) or OpenAI behind the same interfaces;
+- **Corpus-as-config**: a new document collection is a YAML file, not a code fork;
+- **Engineering quality**: typed Python, offline tests with fakes, CI with lint and a data-leak guard.
+
+```text
+Documents → Docling → Structure-aware chunks → Dense + BM25 (Pinecone)
+                                                      ↓
+Question → Query hints → Hybrid search (RRF) → Cross-encoder rerank → Top-k with citations
+                                                      ↓
+                                     Evaluation: hit@1, hit@5, hit@10, MRR
+```
 
 ---
 
@@ -203,6 +239,7 @@ I value systems that are:
 
 Currently focused on:
 
+- building RagKit into a complete RAG platform: grounded answers with citations, RAGAS evals and guardrails;
 - evolving IAEngine into a reusable engineering platform;
 - building InfraSentinel as a security and resilience validation system;
 - designing agent-driven development workflows;
